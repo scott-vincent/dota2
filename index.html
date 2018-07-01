@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Dota 2 Stats</title>
+
+      <!-- CSS files -->
+      <link rel="stylesheet" href="styles.css">
+
+      <!-- JavaScript files -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="client.js"></script>
+   </head>
+
+   <body>
+        <!-- Show any error message -->
+        <div id="error-banner" class="error-banner">
+            <div id="error"></div>
+        </div>
+        
+        <!-- Show how many heroes we found -->
+        <div id="hero-header" class="hero-header">
+            <span>Found</span>
+            <span id="hero-count">0</span>
+            <span>Heroes</span>
+        </div>
+
+        <!-- Show the heroes -->
+        <div id="hero-table" class="hero-table">
+            <!-- Table header -->
+            <div>
+                <span class='table-heading'>Name</span>
+                <span class='table-heading'>Attribute</span>
+                <span class='table-heading'>Strength</span>
+            </div>
+
+            <!-- Table rows -->
+            <div id="heroes"></div>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,33 @@
+.error-banner {
+    display: none;
+    vertical-align: top;
+    color: white;
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.hero-header {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.hero-table {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.table-heading {
+    display: inline-block;
+    width: 146px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.table-col {
+    display: inline-block;
+    width: 150px;
+}
